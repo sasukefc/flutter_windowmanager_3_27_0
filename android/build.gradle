@@ -42,9 +42,4 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    
-    // เพิ่มส่วนนี้ด้วย
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
 }
