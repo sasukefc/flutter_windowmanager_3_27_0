@@ -24,6 +24,9 @@ apply plugin: 'com.android.library'
 android {
     namespace "io.adaptant.labs.flutter_windowmanager"
     compileSdkVersion 35
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
 
     defaultConfig {
         minSdkVersion 16
